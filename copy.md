@@ -52,7 +52,9 @@
 #### 提示： ####
  * 1 <= S.length <= 20000
  * S 仅由小写英文字母组成。
+<br/>
 ***
+
 #### Java代码
 ````java
         String next = scanner.next();
@@ -105,7 +107,7 @@
 ## 贪心1
 #### Java代码
 ```java
- Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int [] nums = new int[n];
         for (int i = 0; i < n; i++) {
